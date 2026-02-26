@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>IVD Marketing Hub | Digital Marketing Education & Growth</title>
+  <meta name="description" content="IVD Marketing Hub by IVD Marketing Enterprise – a world-class digital marketing education platform empowering businesses, brands, and marketers to grow online." />
+
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- HERO SECTION -->
+  <header class="hero">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1>Welcome to <span>IVD Marketing Hub</span></h1>
+      <p>
+        Where digital marketing education meets real-world strategy, 
+        innovation, and growth.
+      </p>
+      <a href="#about" class="btn-primary">Explore the Hub</a>
+    </div>
+  </header>
+
+  <!-- ABOUT IVD MARKETING HUB -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>What is IVD Marketing Hub?</h2>
+      <p class="lead">
+        IVD Marketing Hub is the educational and insight-driven arm of 
+        <strong>IVD Marketing Enterprise</strong> — created to educate, inspire, 
+        and empower businesses, marketers, founders, and brands worldwide.
+      </p>
+
+      <p>
+        This is not just another blog. It is a learning ecosystem where
+        digital marketing is explained in a simple, emotional, and 
+        actionable way — from beginners to advanced professionals.
+      </p>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section class="section dark">
+    <div class="container grid">
+      <div>
+        <h3>Our Mission</h3>
+        <p>
+          To bridge the gap between digital marketing theory and real-world
+          execution — helping brands grow visibility, trust, and revenue
+          in an increasingly competitive digital world.
+        </p>
+      </div>
+
+      <div>
+        <h3>Our Vision</h3>
+        <p>
+          To become one of the most trusted digital marketing education
+          hubs globally, shaping the next generation of digital leaders.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT IVD MARKETING ENTERPRISE -->
+  <section class="section">
+    <div class="container">
+      <h2>About IVD Marketing Enterprise</h2>
+      <p class="lead">
+        IVD Marketing Enterprise is a results-driven digital marketing
+        company focused on visibility, growth, and customer connection.
+      </p>
+
+      <p>
+        From SEO, CRM, and social media marketing to content strategy,
+        SEM, and website development — we help businesses attract the
+        right audience and convert attention into impact.
+      </p>
+    </div>
+  </section>
+
+  <!-- WHY THIS HUB EXISTS -->
+  <section class="section highlight">
+    <div class="container">
+      <h2>Why We Built IVD Marketing Hub</h2>
+      <p>
+        Because too many businesses fail — not from lack of effort —
+        but from lack of clarity, education, and the right strategy.
+      </p>
+
+      <p>
+        This hub exists to simplify digital marketing, remove confusion,
+        and guide brands step-by-step toward sustainable online success.
+      </p>
+    </div>
+  </section>
+
+  <!-- PARTICIPANT REVIEWS -->
+<section class="section testimonials">
+  <div class="container">
+    <h2>What Participants Are Saying</h2>
+    <p class="lead">
+      Real feedback from people who experienced the IVD Marketing Hub
+      online class — honest, practical, and impactful.
+    </p>
+
+    <div class="testimonial-grid">
+
+      <div class="testimonial-card">
+        <p class="testimonial-text">
+          “It was a very good and inspiring moment. The session opened my
+          eyes to how digital marketing can truly change business growth.”
+        </p>
+        <h4 class="testimonial-name">— Akpeke Great</h4>
+        <span class="testimonial-role">IVD Marketing Hub Participant</span>
+      </div>
+
+      <div class="testimonial-card">
+        <p class="testimonial-text">
+          “One thing I learned in IVD Marketing that was new to me is that
+          traffic alone doesn’t make money — conversions do. That insight
+          completely changed my mindset.”
+        </p>
+        <h4 class="testimonial-name">— Samuel Sunday</h4>
+        <span class="testimonial-role">IVD Marketing Hub Participant</span>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- SIGN UP FORM -->
+<section class="section signup">
+  <div class="container signup-grid">
+
+    <div class="signup-text">
+      <h2>Join IVD Marketing Hub</h2>
+      <p class="lead">
+        Learn digital marketing the right way — practical, strategic,
+        and built for real-world growth.
+      </p>
+      <p>
+        Get exclusive insights, free classes, guides, and updates directly
+        from IVD Marketing Enterprise.
+      </p>
+    </div>
+
+<form
+  action="https://formspree.io/f/xwvnrwbl"
+  method="POST"
+  class="signup-form"
+>
+
+  <!-- Redirect -->
+  <input type="hidden" name="_redirect" value="thank-you.html">
+
+  <!-- UTM Tracking -->
+  <input type="hidden" name="utm_source" id="utm_source_main">
+  <input type="hidden" name="utm_medium" id="utm_medium_main">
+  <input type="hidden" name="utm_campaign" id="utm_campaign_main">
+  <input type="hidden" name="utm_content" id="utm_content_main">
+
+  <!-- Visible Fields -->
+  <input type="text" name="name" placeholder="Your Full Name" required>
+  <input type="email" name="email" placeholder="Your Email Address" required>
+
+  <button type="submit" class="btn-primary">
+    Get Free Access
+  </button>
+
+  <p class="form-note">
+    No spam. Only valuable digital marketing insights.
+  </p>
+</form>
+  </div>
+</section>
+
+
+  <!-- CTA -->
+  <section class="cta">
+    <h2>Learn. Grow. Dominate the Digital Space.</h2>
+    <p>
+      Join IVD Marketing Hub and start building digital strategies
+      that actually work.
+    </p>
+    <a href="#" class="btn-primary">Join the Journey</a>
+  </section>
+
+<script>
+  const params = new URLSearchParams(window.location.search);
+
+  const utmData = {
+    source: params.get("utm_source") || "direct",
+    medium: params.get("utm_medium") || "none",
+    campaign: params.get("utm_campaign") || "none",
+    content: params.get("utm_content") || "none"
+  };
+
+  // Main Form
+  document.getElementById("utm_source_main").value = utmData.source;
+  document.getElementById("utm_medium_main").value = utmData.medium;
+  document.getElementById("utm_campaign_main").value = utmData.campaign;
+  document.getElementById("utm_content_main").value = utmData.content;
+
+  // Exit Form
+  document.getElementById("utm_source_exit").value = utmData.source;
+  document.getElementById("utm_medium_exit").value = utmData.medium;
+  document.getElementById("utm_campaign_exit").value = utmData.campaign;
+  document.getElementById("utm_content_exit").value = utmData.content;
+</script>
+
+let exitShown = false;
+
+  document.addEventListener("mouseleave", function (e) {
+    if (e.clientY < 0 && !exitShown) {
+      document.getElementById("exit-popup").style.display = "flex";
+      exitShown = true;
+    }
+  });
+
+  function closeExit() {
+    document.getElementById("exit-popup").style.display = "none";
+  }
+</script>
+
+<div id="exit-popup" class="exit-popup">
+  <div class="exit-content">
+    <h3>Before You Go…</h3>
+    <p>
+      Get free digital marketing insights, strategies,
+      and class updates from IVD Marketing Hub.
+    </p>
+
+<form action="https://formspree.io/f/xwvnrwbl" method="POST">
+
+  <input type="hidden" name="_redirect" value="thank-you.html">
+
+  <input type="hidden" name="utm_source" id="utm_source_exit">
+  <input type="hidden" name="utm_medium" id="utm_medium_exit">
+  <input type="hidden" name="utm_campaign" id="utm_campaign_exit">
+  <input type="hidden" name="utm_content" id="utm_content_exit">
+
+  <input type="email" name="email" placeholder="Your Email" required>
+
+  <button type="submit" class="btn-primary">
+    Join Free
+  </button>
+</form>
+    <span class="exit-close" onclick="closeExit()">×</span>
+  </div>
+</div>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>© 2026 IVD Marketing Enterprise. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
